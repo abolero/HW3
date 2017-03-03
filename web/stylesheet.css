@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2017, 10:00:23 PM
+    Author     : Drew Bolero
+*/
+
+h1{ font-weight:bold; font-size:18pt; font-family: Verdana;}
+
+h2{ font-weight:bold; text-decoration:underline; font-size:14pt; font-family: Arial;}
+
+h3{ font-weight:bold; font-size:12pt; }
+
+.headDesign {
+	background-color: #6F8EA2;
+	margin: 0;
+	padding: 5px;
+	border: 5px solid #28516C;
+}
+
+.mainDesign {
+	background-color: #D27D36;
+	margin: 0px;
+	padding: 5px;
+	border: 5px solid #883F03;
+}
