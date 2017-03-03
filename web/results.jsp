@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Employee Information</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet1.css" />
     </head>
     
     <%
@@ -46,9 +47,10 @@
     %>
     
     <body>
+        <div class="resultsDesign">
         <h1>Salary Details</h1>
         
-        <table border="1">
+        <table cellpadding="5" width="50%" bgcolor="#c5e6c3" border="3px solid black" align="center">
             <tbody>
                 <tr>
                     <td>Hours Worked:</td>
@@ -106,5 +108,7 @@
                 </tr>
             </tbody>
         </table>
-    </body>
+                <a id="homenav" href=".">Enter New Information</a>
+        </div>
+      </body>
 </html>
