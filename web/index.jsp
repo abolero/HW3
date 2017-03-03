@@ -10,12 +10,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Drew Bolero HW3</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheet1.css" />
     </head>
     <body>
+        <div class="mainDesign">
+            
         <h1>Salary Calculator</h1>
         <form name="Salary Calculator" action="results.jsp" method="post">
-            <table>
+            <table align="center">
                 <tbody>
                     <tr>
                         <td>Hours Worked:</td>
@@ -39,9 +41,12 @@
                 </tbody>
             </table>
             
-            <input type="reset" value="Clear" id="clear">
-            <input type="submit" value="Submit" id="submit">
-            
+            <div style="text-align: center">
+                <input type="reset" value="Clear" id="clear">
+                <input type="submit" value="Submit" id="submit">
+            </div>
         </form>
+        </div>
+        
     </body>
 </html>
